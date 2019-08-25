@@ -1,0 +1,150 @@
+$body: 'latosemibold';
+$primary: #bda404;
+header{
+    nav.navbar-inverse{
+        font-family: $body;
+        color: #fff;
+        background-color: black !important;
+        border-radius: 0px !important;
+        margin-bottom: 0px;
+        .navbar-header{
+            margin-top: .5em;
+            .navbar-brand{
+                height: 4.6em;
+                width: 8em;
+                display: flex;
+                margin-right: 5em;
+                    img{
+                        height: 100%;
+                        width: 100%;
+                        object-fit: cover;
+                    }
+                    p{
+                        display: flex;
+                        align-self: center;
+                        margin-top: .9em;
+                        position: relative;
+                        padding-left: .5em;
+                        font-size: 14px;
+                        &:before{
+                            content: '';
+                            border-left: 1px solid white;
+                            position: absolute;
+                            width: 1%;
+                            height: 2.6em;
+                            top: 0em;
+                            left: 0em;
+                        }
+                    }
+                    &:hover{
+                        color: #fff;
+                    }
+        
+            }
+            button.navbar-toggle{
+                background-color: $primary;
+                border: none;
+                border-radius: 0px;
+                padding: 1em;
+
+            }
+        }
+        .navbar-collapse{
+            ul.navbar-nav{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 7em;
+                li{
+                    font-size: 15px;
+                    &.active{
+                        a{
+                            background-color: transparent;
+                            &:active, &:focus, &:hover{
+                                background-color: transparent;
+                            }
+                        }
+                    }
+                    a{
+                        transition: color .5s ease-out;
+                        text-align: center;
+                        color: white;
+                        &:hover{
+                            color: $primary;
+                        } 
+                    }
+                }
+                &:first-child{
+                    width: 40%;
+                    @media (min-width: 1280px) and (max-width: 1680px) {
+                        margin-left: 6em;
+                    }
+      
+                }
+                @media (max-width: 1027px) and (min-width: 300px){
+                    display: initial;
+                  }
+            }
+            ul.input_container{
+                width: 24%;
+       
+            }
+            ul.especial{
+                width: 13%;
+                li{
+                    a{
+                        span{
+                            padding: .7em;
+                        }
+                    }
+                  
+                  &.dropdown{
+                    ul.dropdown-menu{
+                        border-radius: 0.3em;
+                        border: 0px;
+                        li{
+                            a{
+                                color: $primary;
+                            }
+                        }
+                       &:before{
+                        content: "";
+                        position: absolute;
+                        width: 0;
+                        height: 0;
+                        border-bottom: 16px solid white;
+                        border-right: 16px solid transparent;
+                        border-left: 18px solid transparent;
+                        margin: -16px 0 0 74px;
+                       }
+                       @media (max-width: 1027px) and (min-width: 300px){
+                        &:before{
+                            content: "";
+                        position: absolute;
+                        width: 0;
+                        height: 0;
+                        border-bottom: 0px solid white;
+                        border-right: 0px  solid transparent;
+                        border-left: 0px  solid transparent;
+                        margin: 0;
+                        }
+                      }
+                    }
+                  }
+                }
+                .res_pd{
+                    a{
+                        @media (max-width: 1027px) and (min-width: 300px){
+                            padding-right: 3.2em;
+                        }
+                    }
+                }
+            }
+        }
+
+        // Change Color Inherit Booststrap
+        .navbar-nav {
+
+        }
+    }
+}

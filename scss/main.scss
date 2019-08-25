@@ -1,0 +1,32 @@
+// ---------------------
+// VARIABLES
+//----------------------
+
+@import './utilities/variables.scss';
+@import './utilities/mixin.scss';
+
+// --------------
+// TYPOGRAPHY
+// --------------
+
+
+// --------------
+// COMPONENTS
+// --------------
+
+@import './components/button.scss';
+@import './components/header.scss';
+@import './components/menu.scss';
+@import './components/slider.scss';
+@import './components/input.scss';
+
+//---------------
+//   LAYOUTS
+// --------------
+@import './views/home_page.scss';
+
+//----------------
+//  RESPONSIVE
+// ---------------
+@import './utilities/responsive.scss';
+

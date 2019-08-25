@@ -1,0 +1,233 @@
+header nav.navbar-inverse {
+  font-family: "latosemibold";
+  color: #fff;
+  background-color: black !important;
+  border-radius: 0px !important;
+  margin-bottom: 0px;
+}
+
+header nav.navbar-inverse .navbar-header {
+  margin-top: .5em;
+}
+
+header nav.navbar-inverse .navbar-header .navbar-brand {
+  height: 4.6em;
+  width: 8em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 5em;
+}
+
+header nav.navbar-inverse .navbar-header .navbar-brand img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+header nav.navbar-inverse .navbar-header .navbar-brand p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  margin-top: .9em;
+  position: relative;
+  padding-left: .5em;
+  font-size: 14px;
+}
+
+header nav.navbar-inverse .navbar-header .navbar-brand p:before {
+  content: '';
+  border-left: 1px solid white;
+  position: absolute;
+  width: 1%;
+  height: 2.6em;
+  top: 0em;
+  left: 0em;
+}
+
+header nav.navbar-inverse .navbar-header .navbar-brand:hover {
+  color: #fff;
+}
+
+header nav.navbar-inverse .navbar-header button.navbar-toggle {
+  background-color: #bda404;
+  border: none;
+  border-radius: 0px;
+  padding: 1em;
+}
+
+header nav.navbar-inverse .navbar-collapse ul.navbar-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 7em;
+}
+
+header nav.navbar-inverse .navbar-collapse ul.navbar-nav li {
+  font-size: 15px;
+}
+
+header nav.navbar-inverse .navbar-collapse ul.navbar-nav li.active a {
+  background-color: transparent;
+}
+
+header nav.navbar-inverse .navbar-collapse ul.navbar-nav li.active a:active, header nav.navbar-inverse .navbar-collapse ul.navbar-nav li.active a:focus, header nav.navbar-inverse .navbar-collapse ul.navbar-nav li.active a:hover {
+  background-color: transparent;
+}
+
+header nav.navbar-inverse .navbar-collapse ul.navbar-nav li a {
+  -webkit-transition: color .5s ease-out;
+  transition: color .5s ease-out;
+  text-align: center;
+  color: white;
+}
+
+header nav.navbar-inverse .navbar-collapse ul.navbar-nav li a:hover {
+  color: #bda404;
+}
+
+header nav.navbar-inverse .navbar-collapse ul.navbar-nav:first-child {
+  width: 40%;
+}
+
+@media (min-width: 1280px) and (max-width: 1680px) {
+  header nav.navbar-inverse .navbar-collapse ul.navbar-nav:first-child {
+    margin-left: 6em;
+  }
+}
+
+@media (max-width: 1027px) and (min-width: 300px) {
+  header nav.navbar-inverse .navbar-collapse ul.navbar-nav {
+    display: initial;
+  }
+}
+
+header nav.navbar-inverse .navbar-collapse ul.input_container {
+  width: 24%;
+}
+
+header nav.navbar-inverse .navbar-collapse ul.especial {
+  width: 13%;
+}
+
+header nav.navbar-inverse .navbar-collapse ul.especial li a span {
+  padding: .7em;
+}
+
+header nav.navbar-inverse .navbar-collapse ul.especial li.dropdown ul.dropdown-menu {
+  border-radius: 0.3em;
+  border: 0px;
+}
+
+header nav.navbar-inverse .navbar-collapse ul.especial li.dropdown ul.dropdown-menu li a {
+  color: #bda404;
+}
+
+header nav.navbar-inverse .navbar-collapse ul.especial li.dropdown ul.dropdown-menu:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-bottom: 16px solid white;
+  border-right: 16px solid transparent;
+  border-left: 18px solid transparent;
+  margin: -16px 0 0 74px;
+}
+
+@media (max-width: 1027px) and (min-width: 300px) {
+  header nav.navbar-inverse .navbar-collapse ul.especial li.dropdown ul.dropdown-menu:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 0px solid white;
+    border-right: 0px  solid transparent;
+    border-left: 0px  solid transparent;
+    margin: 0;
+  }
+}
+
+@media (max-width: 1027px) and (min-width: 300px) {
+  header nav.navbar-inverse .navbar-collapse ul.especial .res_pd a {
+    padding-right: 3.2em;
+  }
+}
+
+nav .input-group .form-control {
+  background-color: transparent;
+  border-right: 0px solid black;
+  border-top-left-radius: .8em;
+  border-bottom-left-radius: .8em;
+  color: white;
+}
+
+nav .input-group .form-control:focus, nav .input-group .form-control:active {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: 1px solid white;
+  border-right: 0px solid black;
+}
+
+nav .input-group .input-group-btn button {
+  background-color: transparent;
+  border-left: 0px solid;
+  border-bottom-right-radius: .8em;
+  border-top-right-radius: .8em;
+  color: white;
+}
+
+nav .input-group .input-group-btn button:focus, nav .input-group .input-group-btn button:active {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: none;
+  background-color: transparent;
+  color: white;
+}
+
+@media (max-width: 1027px) {
+  .navbar-header {
+    float: none;
+  }
+  .navbar-left, .navbar-right {
+    float: none !important;
+  }
+  .navbar-toggle {
+    display: block;
+  }
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+            box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+    display: none !important;
+  }
+  .navbar-nav {
+    float: none !important;
+    margin-top: 7.5px;
+  }
+  .navbar-nav > li {
+    float: none;
+  }
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .collapse.in {
+    display: block !important;
+  }
+}
+/*# sourceMappingURL=main.css.map */

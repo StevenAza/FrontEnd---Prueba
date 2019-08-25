@@ -1,0 +1,13 @@
+// FONTS
+$body: 'latosemibold';
+$header: 'labtop_superwide_boldishRg';
+body {
+    font-family: $body;
+}
+h1,h2{
+    font-weight: bold;
+    font-family: $header;
+}
+p,a,li{
+    font-family: $body;
+}
