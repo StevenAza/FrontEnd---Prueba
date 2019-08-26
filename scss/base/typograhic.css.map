@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAGA,AAAA,IAAI,CAAC;EACD,WAAW,EAHR,cAAc;CAIpB;;AAED,AAAA,CAAC,EAAC,CAAC,EAAC,EAAE,CAAA;EACF,WAAW,EAPR,cAAc;CAQpB;;AAGD,AAAA,YAAY,CAAA;EACR,gBAAgB,EAAE,OAAO;EACzB,OAAO,EAAE,IAAI;EACb,KAAK,EAAE,KAAK;EACZ,SAAS,EAAE,KAAK;EAChB,KAAK,EAAE,IAAI;EACX,cAAc,EAAE,SAAS;EACzB,cAAc,EAAE,IAAI;CACvB",
-    "sources": [
-        "typograhic.scss"
-    ],
-    "names": [],
-    "file": "typograhic.css"
-}
