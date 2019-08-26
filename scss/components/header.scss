@@ -72,6 +72,9 @@ header{
                         &:hover{
                             color: $primary;
                         } 
+                        @media (max-width: 1027px) and (min-width:300px) {
+                            text-align: left;
+                        }
                     }
                 }
                 &:first-child{
@@ -87,7 +90,11 @@ header{
             }
             ul.input_container{
                 width: 24%;
-       
+                    @media (max-width: 1027px) and (min-width: 680px){
+                        .input-group{
+                            width: 50%;
+                        }
+                    }
             }
             ul.especial{
                 width: 13%;
@@ -140,11 +147,6 @@ header{
                     }
                 }
             }
-        }
-
-        // Change Color Inherit Booststrap
-        .navbar-nav {
-
         }
     }
 }

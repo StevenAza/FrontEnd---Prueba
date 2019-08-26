@@ -1,1 +1,106 @@
-/* No CSS *//*# sourceMappingURL=slider.css.map */
+main .slider_principal .carousel-control {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-shadow: none;
+  background-color: initial;
+  background-image: inherit;
+  -webkit-filter: none;
+          filter: none;
+  opacity: 10;
+  font-size: 5em;
+}
+
+main .slider_principal .carousel-control.left {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+main .slider_principal .carousel-control.right {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+@media (max-width: 700px) and (min-width: 300px) {
+  main .slider_principal .carousel-control {
+    font-size: 2.5em;
+  }
+}
+
+main .slider_principal .carousel-inner .item img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-height: 36em;
+  -webkit-filter: sepia(1) brightness(0.5);
+          filter: sepia(1) brightness(0.5);
+}
+
+main .slider_principal .carousel-inner .item .carousel-caption {
+  top: -2%;
+  text-align: left;
+  left: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-shadow: none;
+}
+
+main .slider_principal .carousel-inner .item .carousel-caption p {
+  font-size: 18px;
+}
+
+main .slider_principal .carousel-inner .item .carousel-caption .button_opt {
+  position: relative;
+  top: 16em;
+}
+
+main .slider_principal .carousel-inner .item .carousel-caption .button_opt .slide_button {
+  width: 10em;
+}
+
+@media (max-width: 1000px) and (min-width: 300px) {
+  main .slider_principal .carousel-inner .item .carousel-caption .button_opt {
+    position: static;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 700px) {
+  main .slider_principal .carousel-inner .item img {
+    height: 22em;
+  }
+  main .slider_principal .carousel-inner .item .carousel-caption .title_slide {
+    font-size: 1.2em;
+  }
+  main .slider_principal .carousel-inner .item .carousel-caption p {
+    font-size: 15px;
+  }
+}
+
+main .slider_principal ol.carousel-indicators li {
+  background-color: grey;
+  border: none;
+  width: 18px;
+  height: 18px;
+}
+
+main .slider_principal ol.carousel-indicators li.active {
+  background-color: #bda404;
+  border: none;
+}
+
+@media (max-width: 700px) and (min-width: 300px) {
+  main .slider_principal ol.carousel-indicators li {
+    width: 12px;
+    height: 12px;
+  }
+}
+/*# sourceMappingURL=slider.css.map */

@@ -4,10 +4,18 @@ $header: 'labtop_superwide_boldishRg';
 body {
     font-family: $body;
 }
-h1,h2{
-    font-weight: bold;
-    font-family: $header;
-}
+
 p,a,li{
     font-family: $body;
+}
+
+
+.title_slide{
+    background-color: #bda404;
+    padding: .3em;
+    color: black;
+    font-size: 2.2em;
+    width: auto;
+    text-transform: uppercase;
+    letter-spacing: .2em;
 }

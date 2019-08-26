@@ -9,16 +9,17 @@
 // TYPOGRAPHY
 // --------------
 
-
+@import './base/typograhic.scss';
 // --------------
 // COMPONENTS
 // --------------
 
 @import './components/button.scss';
-@import './components/header.scss';
+@import './components/header.scss' ;
 @import './components/menu.scss';
 @import './components/slider.scss';
 @import './components/input.scss';
+@import './components/explora.scss';
 
 //---------------
 //   LAYOUTS

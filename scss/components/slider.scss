@@ -1,0 +1,91 @@
+$primary: #bda404;
+
+main{
+    .slider_principal{
+        .carousel-control{
+            display: flex;
+            align-items: center;
+            text-shadow: none;
+            background-color: initial;
+            background-image: inherit;
+            filter: none;
+            opacity: 10;
+            font-size: 5em;
+            &.left{
+                justify-content: flex-start;
+            }
+            &.right{
+                justify-content: flex-end;
+            }
+            @media (max-width: 700px) and (min-width: 300px){ 
+                    font-size: 2.5em;
+            }
+
+        }
+        .carousel-inner{
+            .item{
+                img{
+                    width: 100%;
+                    object-fit: cover;
+                    max-height: 36em;
+                    filter: sepia(1) brightness(0.5);
+                }
+                .carousel-caption{
+                    top: -2%;
+                    text-align: left;
+                    left: 10%;
+                    display: flex;
+                    align-items: center;
+                    text-shadow: none;
+                    p{
+                        font-size: 18px;
+                    }
+                .button_opt{
+                    position: relative;
+                    top: 16em;
+                    .slide_button{
+                        width: 10em;
+                    }
+                    @media(max-width: 1000px) and (min-width: 300px){               
+                        position: static;
+                    }
+                }
+
+                }
+            }
+            @media (min-width: 300px) and (max-width: 700px){
+              .item{
+                  img{
+                      height: 22em;
+                  }
+                  .carousel-caption{
+                      .title_slide{
+                          font-size: 1.2em;
+                      }
+                      p{
+                          font-size: 15px;
+                      }
+                
+                  }
+              }
+            }
+        }
+        ol.carousel-indicators{
+            li{ 
+                background-color: grey;
+                border: none;
+                width: 18px;
+                height: 18px;
+                &.active{
+                    background-color: $primary;
+                    border: none;
+                }
+                @media (max-width: 700px) and (min-width:300px) {
+                    width: 12px;
+                    height: 12px;
+                    
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+.centred{
+    margin: 0 auto;
+    float: none;
+}
+#explora_main{
+    background-color: #efeeee;
+    .explora_nuestra{
+        div[class*="col-lg"]{
+            padding-right: 0px;
+
+        }
+        .title{
+            margin-top: 5%;
+            margin-bottom: 5%;
+            text-align: center;
+            h2{
+                font-size: 2.2em;
+          
+            }
+            @media (max-width:600px) and (min-width:300px) {
+                h2{
+                    font-size: 1.4em;
+                }
+                h3{
+                    font-size: 1em;
+                }
+            }
+        }
+    
+    }
+}

@@ -95,6 +95,12 @@ header nav.navbar-inverse .navbar-collapse ul.navbar-nav li a:hover {
   color: #bda404;
 }
 
+@media (max-width: 1027px) and (min-width: 300px) {
+  header nav.navbar-inverse .navbar-collapse ul.navbar-nav li a {
+    text-align: left;
+  }
+}
+
 header nav.navbar-inverse .navbar-collapse ul.navbar-nav:first-child {
   width: 40%;
 }
@@ -113,6 +119,12 @@ header nav.navbar-inverse .navbar-collapse ul.navbar-nav:first-child {
 
 header nav.navbar-inverse .navbar-collapse ul.input_container {
   width: 24%;
+}
+
+@media (max-width: 1027px) and (min-width: 680px) {
+  header nav.navbar-inverse .navbar-collapse ul.input_container .input-group {
+    width: 50%;
+  }
 }
 
 header nav.navbar-inverse .navbar-collapse ul.especial {

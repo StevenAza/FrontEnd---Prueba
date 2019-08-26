@@ -1,1 +1,46 @@
-/* No CSS *//*# sourceMappingURL=button.css.map */
+.slide_button {
+  background-color: transparent;
+  font-size: 18px;
+  padding: .5em;
+  border: 3px solid #bea404;
+  border-radius: .3em;
+  -webkit-transition: all .6s ease-out;
+  transition: all .6s ease-out;
+}
+
+.slide_button:active, .slide_button:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.slide_button:hover {
+  background-color: #bea404;
+  color: black;
+}
+
+@media (max-width: 600px) and (min-width: 300px) {
+  .slide_button {
+    font-size: 14px;
+    padding: .4em;
+  }
+}
+
+.btn_conoce {
+  padding: 1em;
+  background-color: #efeeee;
+  border-radius: 1em;
+  width: 100%;
+  text-align: center;
+  color: black;
+  padding: .7em;
+  -webkit-transition: all .4s ease-out;
+  transition: all .4s ease-out;
+}
+
+.btn_conoce:hover {
+  text-decoration: none;
+  background-color: #bea404;
+  color: black;
+}
+/*# sourceMappingURL=button.css.map */

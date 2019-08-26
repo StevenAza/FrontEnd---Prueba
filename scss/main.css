@@ -1,3 +1,67 @@
+body {
+  font-family: "latosemibold";
+}
+
+p, a, li {
+  font-family: "latosemibold";
+}
+
+.title_slide {
+  background-color: #bda404;
+  padding: .3em;
+  color: black;
+  font-size: 2.2em;
+  width: auto;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+}
+
+.slide_button {
+  background-color: transparent;
+  font-size: 18px;
+  padding: .5em;
+  border: 3px solid #bea404;
+  border-radius: .3em;
+  -webkit-transition: all .6s ease-out;
+  transition: all .6s ease-out;
+}
+
+.slide_button:active, .slide_button:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.slide_button:hover {
+  background-color: #bea404;
+  color: black;
+}
+
+@media (max-width: 600px) and (min-width: 300px) {
+  .slide_button {
+    font-size: 14px;
+    padding: .4em;
+  }
+}
+
+.btn_conoce {
+  padding: 1em;
+  background-color: #efeeee;
+  border-radius: 1em;
+  width: 100%;
+  text-align: center;
+  color: black;
+  padding: .7em;
+  -webkit-transition: all .4s ease-out;
+  transition: all .4s ease-out;
+}
+
+.btn_conoce:hover {
+  text-decoration: none;
+  background-color: #bea404;
+  color: black;
+}
+
 header nav.navbar-inverse {
   font-family: "latosemibold";
   color: #fff;
@@ -95,6 +159,12 @@ header nav.navbar-inverse .navbar-collapse ul.navbar-nav li a:hover {
   color: #bda404;
 }
 
+@media (max-width: 1027px) and (min-width: 300px) {
+  header nav.navbar-inverse .navbar-collapse ul.navbar-nav li a {
+    text-align: left;
+  }
+}
+
 header nav.navbar-inverse .navbar-collapse ul.navbar-nav:first-child {
   width: 40%;
 }
@@ -113,6 +183,12 @@ header nav.navbar-inverse .navbar-collapse ul.navbar-nav:first-child {
 
 header nav.navbar-inverse .navbar-collapse ul.input_container {
   width: 24%;
+}
+
+@media (max-width: 1027px) and (min-width: 680px) {
+  header nav.navbar-inverse .navbar-collapse ul.input_container .input-group {
+    width: 50%;
+  }
 }
 
 header nav.navbar-inverse .navbar-collapse ul.especial {
@@ -162,6 +238,112 @@ header nav.navbar-inverse .navbar-collapse ul.especial li.dropdown ul.dropdown-m
   }
 }
 
+main .slider_principal .carousel-control {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-shadow: none;
+  background-color: initial;
+  background-image: inherit;
+  -webkit-filter: none;
+          filter: none;
+  opacity: 10;
+  font-size: 5em;
+}
+
+main .slider_principal .carousel-control.left {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+main .slider_principal .carousel-control.right {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+@media (max-width: 700px) and (min-width: 300px) {
+  main .slider_principal .carousel-control {
+    font-size: 2.5em;
+  }
+}
+
+main .slider_principal .carousel-inner .item img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-height: 36em;
+  -webkit-filter: sepia(1) brightness(0.5);
+          filter: sepia(1) brightness(0.5);
+}
+
+main .slider_principal .carousel-inner .item .carousel-caption {
+  top: -2%;
+  text-align: left;
+  left: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-shadow: none;
+}
+
+main .slider_principal .carousel-inner .item .carousel-caption p {
+  font-size: 18px;
+}
+
+main .slider_principal .carousel-inner .item .carousel-caption .button_opt {
+  position: relative;
+  top: 16em;
+}
+
+main .slider_principal .carousel-inner .item .carousel-caption .button_opt .slide_button {
+  width: 10em;
+}
+
+@media (max-width: 1000px) and (min-width: 300px) {
+  main .slider_principal .carousel-inner .item .carousel-caption .button_opt {
+    position: static;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 700px) {
+  main .slider_principal .carousel-inner .item img {
+    height: 22em;
+  }
+  main .slider_principal .carousel-inner .item .carousel-caption .title_slide {
+    font-size: 1.2em;
+  }
+  main .slider_principal .carousel-inner .item .carousel-caption p {
+    font-size: 15px;
+  }
+}
+
+main .slider_principal ol.carousel-indicators li {
+  background-color: grey;
+  border: none;
+  width: 18px;
+  height: 18px;
+}
+
+main .slider_principal ol.carousel-indicators li.active {
+  background-color: #bda404;
+  border: none;
+}
+
+@media (max-width: 700px) and (min-width: 300px) {
+  main .slider_principal ol.carousel-indicators li {
+    width: 12px;
+    height: 12px;
+  }
+}
+
 nav .input-group .form-control {
   background-color: transparent;
   border-right: 0px solid black;
@@ -191,6 +373,87 @@ nav .input-group .input-group-btn button:focus, nav .input-group .input-group-bt
   outline: none;
   background-color: transparent;
   color: white;
+}
+
+.centred {
+  margin: 0 auto;
+  float: none;
+}
+
+#explora_main {
+  background-color: #efeeee;
+}
+
+#explora_main .explora_nuestra div[class*="col-lg"] {
+  padding-right: 0px;
+}
+
+#explora_main .explora_nuestra .title {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+#explora_main .explora_nuestra .title h2 {
+  font-size: 2.2em;
+}
+
+@media (max-width: 600px) and (min-width: 300px) {
+  #explora_main .explora_nuestra .title h2 {
+    font-size: 1.4em;
+  }
+  #explora_main .explora_nuestra .title h3 {
+    font-size: 1em;
+  }
+}
+
+.card {
+  background-color: white;
+  margin-bottom: 10%;
+  -webkit-transition: all .8s ease-out;
+  transition: all .8s ease-out;
+}
+
+.card img {
+  height: 14em;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card .card-body {
+  padding: 2em;
+  max-height: 19em;
+  min-height: 19em;
+}
+
+.card .card-body .card-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  border-bottom: 3px solid #ffec75;
+  padding-bottom: 0.3em;
+  margin-top: 0px;
+}
+
+.card .card-body p {
+  color: #7f8286;
+}
+
+.card .card-body .centered {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  margin-top: 6%;
+}
+
+.card:hover {
+  -webkit-box-shadow: 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12), 0 11px 15px -7px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12), 0 11px 15px -7px rgba(0, 0, 0, 0.2);
 }
 
 @media (max-width: 1027px) {

@@ -21,7 +21,7 @@
 
     <!-- script -->
     <script src="./plugins/js/jquery.min.js"></script>
-    <script src="./plugins/js/bootstrap.min.js" ></script>
+    <script src="./plugins/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -49,7 +49,8 @@
                     <ul class="nav navbar-nav">
                         <li><a href="#" title="ir a Inicio">Inicio</a></li>
                         <li><a href="#" title="Ir a nuestros programas">Nuestros programas</a></li>
-                        <li><a href="#" title="Ir a programas para organizaciones">Programas para organizaciones</a></li>
+                        <li><a href="#" title="Ir a programas para organizaciones">Programas para organizaciones</a>
+                        </li>
                         <li><a href="#" title="Ir a quiénes somos">Quiénes somos</a></li>
                     </ul>
                     <ul class="nav navbar-nav input_container">
@@ -64,7 +65,8 @@
                         <li class="res_pd"><a href="#" title="ir a FAQ">FAQ</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
-                                aria-haspopup="true" aria-expanded="false">ESP <span class="lnr lnr-chevron-down"></span></a>
+                                aria-haspopup="true" aria-expanded="false">ESP <span
+                                    class="lnr lnr-chevron-down"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="#">ENG</a></li>
                                 <li><a href="#">FR</a></li>
@@ -80,68 +82,139 @@
     <!--  ***********         -->
     <main>
         <div class="slider_principal">
-            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-            </ol>
-          
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-              <div class="item active">
-                <img src="./assets/images/slider1.jpg" alt="Educación">
-                <div class="carousel-caption">
-                 
-                </div>
-              </div>
-              <div class="item">
-                <img src="./assets/images/slider2.jpeg" alt="Educación">
-                <div class="carousel-caption">
-                       
-                </div>
-              </div>
-              <div class="item">
-                    <img src="./assets/images/slider3.jpg" alt="Educación">
-                    <div class="carousel-caption">
-                           
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="false">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="./assets/images/slider1.jpg" alt="Educación">
+                        <div class="carousel-caption">
+                            <div class="row">
+                                <div class="col-md-10">
+                                    <h2 class="title_slide">Matemáticas para posgrados</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et atque voluptas, esse
+                                        voluptate aliquam inventore maxime aut doloribus sint officia accusamus unde
+                                        consequuntur eos saepe, ut enim vero ea facilis.</p>
+                                </div>
+                                <div class="col-md-2 button_opt">
+                                    <button class="slide_button">Conoce más</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
+                    <div class="item">
+                        <img src="./assets/images/slider2.jpeg" alt="Educación">
+                        <div class="carousel-caption">
+                            <div class="row">
+                                <div class="col-md-10">
+                                    <h2 class="title_slide">Educación</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et atque voluptas, esse
+                                        voluptate aliquam inventore maxime aut doloribus sint officia accusamus unde
+                                        consequuntur eos saepe, ut enim vero ea facilis.</p>
+                                </div>
+                                <div class="col-md-2 button_opt">
+                                    <button class="slide_button">Conoce más</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./assets/images/slider3.jpg" alt="Educación">
+                        <div class="carousel-caption">
+                            <div class="row">
+                                <div class="col-md-10">
+                                    <h2 class="title_slide">Nuestros programas</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et atque voluptas, esse
+                                        voluptate aliquam inventore maxime aut doloribus sint officia accusamus unde
+                                        consequuntur eos saepe, ut enim vero ea facilis.</p>
+                                </div>
+                                <div class="col-md-2 button_opt">
+                                    <button class="slide_button">Conoce más</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Controls -->
+                <a class="carousel-control left" href="#carousel-example-generic" role="button" data-slide="prev">
+                    <span class="lnr lnr-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control right " href="#carousel-example-generic" role="button" data-slide="next">
+                    <span class="lnr lnr-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
-          
-            <!-- Controls -->
-            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
+        </div>
+        <div id="explora_main">
+            <div class="container">
+                <div class="row explora_nuestra">
+                    <div class="col-md-10 col-xs-12 centred">
+                        <div class="title">
+                            <h2>EXPLORA NUESTRA OFERTA</h2>
+                            <h3>¡Descubre lo que tenemos para ti!</h3>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 col-xs-12 col-lg-4 col-sm-12">
+                                <div class="card">
+                                    <img src="./assets/images/card1.png" class="card-img-top" alt="Nuestros progrmas">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Nuestros programas</h5>
+                                        <p class="card-text">Dirigidos a la comunidad en general y diseñados con el
+                                            objetivo de formar, capacitar y brindar conocimientos a los participantes en
+                                            diferentes disciplinas. </p>
+                                        <div class="centered">
+                                            <a href="#" class="btn_conoce">Conoce más</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-xs-12 col-lg-4 col-sm-12">
+
+                                <div class="card">
+                                    <img src="./assets/images/card2.jpg" class="card-img-top" alt="Nuestros progrmas">
+                                    <div class="card-body">
+                                        <h5 class="card-title">PROGRAMAS PARA NIÑOS Y JOVENES</h5>
+                                        <p class="card-text">Posibilitan una información complementaria de educación
+                                            escolar, fomentando el desarrollo integral de los participantes a través de
+                                            la exploración de sus interes y habilidades</p>
+                                        <div class="centered">
+                                            <a href="#" class="btn_conoce">Conoce más</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-4 col-xs-12 col-lg-4 col-sm-12">
+
+                                <div class="card">
+                                    <img src="./assets/images/card3.png" class="card-img-top" alt="Nuestros progrmas">
+                                    <div class="card-body">
+                                        <h5 class="card-title">programas para organizaciones</h5>
+                                        <p class="card-text">Respoden a las necesidades de capacitación, actualización y
+                                            desarrollo de las organizaciones para sus colaboradores y socios
+                                            estratégicos</p>
+                                        <div class="centered">
+                                            <a href="#" class="btn_conoce">Conoce más</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <div class="explora_nuestra">
-            <div class="title">
-                <h2>Explora nuestra oferta</h2>
-                <h3>¡Descubre lo que tenemos para ti!</h3>
-            </div>
-            <div class="row">
-                <div class="card">
-
-                </div>
-                <div class="card">
-
-                </div>
-                <div class="card">
-
-                </div>
-            </div>
-        </div>
     </main>
-
-
 </body>
 
 </html>

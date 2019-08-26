@@ -1,1 +1,32 @@
-/* No CSS *//*# sourceMappingURL=explora.css.map */
+.centred {
+  margin: 0 auto;
+  float: none;
+}
+
+#explora_main {
+  background-color: #efeeee;
+}
+
+#explora_main .explora_nuestra div[class*="col-lg"] {
+  padding-right: 0px;
+}
+
+#explora_main .explora_nuestra .title {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+#explora_main .explora_nuestra .title h2 {
+  font-size: 2.2em;
+}
+
+@media (max-width: 600px) and (min-width: 300px) {
+  #explora_main .explora_nuestra .title h2 {
+    font-size: 1.4em;
+  }
+  #explora_main .explora_nuestra .title h3 {
+    font-size: 1em;
+  }
+}
+/*# sourceMappingURL=explora.css.map */

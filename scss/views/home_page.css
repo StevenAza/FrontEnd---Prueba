@@ -1,1 +1,49 @@
-/* No CSS *//*# sourceMappingURL=home_page.css.map */
+.card {
+  background-color: white;
+  margin-bottom: 10%;
+  -webkit-transition: all .8s ease-out;
+  transition: all .8s ease-out;
+}
+
+.card img {
+  height: 14em;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card .card-body {
+  padding: 2em;
+  max-height: 19em;
+  min-height: 19em;
+}
+
+.card .card-body .card-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  border-bottom: 3px solid #ffec75;
+  padding-bottom: 0.3em;
+  margin-top: 0px;
+}
+
+.card .card-body p {
+  color: #7f8286;
+}
+
+.card .card-body .centered {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  margin-top: 6%;
+}
+
+.card:hover {
+  -webkit-box-shadow: 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12), 0 11px 15px -7px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12), 0 11px 15px -7px rgba(0, 0, 0, 0.2);
+}
+/*# sourceMappingURL=home_page.css.map */
